@@ -12,9 +12,8 @@ Date: 2018-03-12
 
 
 class A(object):
-
 	def foo(self):
-		print('foo of A')
+		print('foo in A')
 
 
 class B(A):
@@ -22,9 +21,8 @@ class B(A):
 
 
 class C(A):
-
 	def foo(self):
-		print('foo fo C')
+		print('foo in C')
 
 
 class D(B, C):
